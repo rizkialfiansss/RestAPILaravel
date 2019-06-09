@@ -4,7 +4,7 @@
 use Illuminate\Http\Request;
 
 Route::get('items', function (){
-    // return [
-    //     'message' => 'ini adalah browser',
-    // ];
+    return [
+        'message' => 'ini adalah browser',
+    ];
 });
