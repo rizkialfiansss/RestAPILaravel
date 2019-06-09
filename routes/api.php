@@ -23,3 +23,5 @@ Route::delete('items/{item}', function (Item $item){
     $item->delete();
     return  'Success';
 });
+
+//ini untuk berubah directory
